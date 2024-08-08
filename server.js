@@ -3,7 +3,6 @@ const connectDB = require("./config/db");
 const path = require("path");
 const helmet = require("helmet");
 const CORS = require("cors");
-const test = require("./tests/phaser")
 const app = express();
 
 // Connect Database
